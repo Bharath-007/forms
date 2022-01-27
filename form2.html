@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form2</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <h1>FreeCodeCamp Survey Form</h1>
+    <h3>Thank you for taking the time to help us improve the platfrom</h3>
+    <div class="container">
+        <form action="" class="formOuter">
+            <div class="p1">
+                <label for="Name" class="emailLabel">Name<br/>
+                    <input type="name" class="NameInput" placeholder="Enter your name">
+                </label>
+            </div>
+            <div class="p2">
+                <label for="Email" class="emailLabel">Email<br/>
+                    <input type="email" class="EmailInput" placeholder="Enter your Email">
+                </label>
+            </div>
+            <div class="p3">
+                <label for="Age" class="ageLabel">Age(optional)<br/>
+                    <input type="age" class="ageInput" placeholder="Age">
+                </label>
+            </div>
+            <div class="p4">
+                <div>
+                    <label for="Role" class="">Which option best describes your current role?<br/>
+                        <select name="feature" id="feature1">
+                            <option value="role">Select an option</option>
+                            <option value="role">Student</option>
+                            <option value="role">Staff</option>
+                            <option value="role">Other</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+            <div class="p5">
+                <label for="recommendation">Would you recomment free code camp too a friend?</label><br>
+                <label><input name="radio" type="radio"><span>definity</span></label><br>
+                <label><input name="radio" type="radio"><span>Maybe</span></label><br>
+                <label><input name="radio" type="radio"><span>Notsure</span></label>
+            </div>
+            <div class="p6">
+                <div class="caption">
+                    <label for="feature">Which is your favourite feature of the freeCodeCamp</label><br>
+
+                </div>
+                <div class="captions">
+                    <select name="feature" id="feature1">
+                        <option value="bootstrap">Select an option</option>
+                        <option value="bootstrap">Bootstrap</option>
+                        <option value="bootstrap">Bootstrap</option>
+                        <option value="bootstrap">Bootstrap</option>
+                    </select>
+                </div>
+            </div>
+            <div class="p7">
+                <div>
+                    <label for="">What would you like to see improved? (check all that apply)</label>
+                </div>
+                <div>
+                    <label><input type="checkbox"><span>Front-end Projects</span></label><br>
+                    <label><input type="checkbox"><span>Back-end Projects</span></label><br>
+                    <label><input type="checkbox"><span>Data Visualization</span></label><br>
+                    <label><input type="checkbox"><span>Challenges</span></label><br>
+                    <label><input type="checkbox"><span>Open Source Communication</span></label><br>
+                    <label><input type="checkbox"><span>Gitter help rooms</span></label><br>
+                    <label><input type="checkbox"><span>Videos</span></label><br>
+                    <label><input type="checkbox"><span>City Meetups</span></label><br>
+                    <label><input type="checkbox"><span>wiki</span></label><br>
+                    <label><input type="checkbox"><span>Forum</span></label><br>
+                    <label><input type="checkbox"><span>Additional Courses</span></label>
+                </div>
+            </div>
+            <div class="p8">
+                <label for="comments" class="comments">Any Comments or Suggestions?<br>
+                    <textarea name="suggestions" id="suggestions" cols="30" rows="5"></textarea>
+                </label>
+            </div>
+            <div class="p9" onclick="alert('submitted successfully')">
+                <button type="submit">SUBMIT</button>
+            </div>
+        </form>
+    </div>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Monoton&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+</body>
+
+</html>
